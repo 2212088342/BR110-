@@ -1,1 +1,19 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1571989493203" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="31521" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><defs><style type="text/css"></style></defs><path d="M150.016 873.984c-79.872-79.872-79.872-209.408 0-289.792l434.688-434.688c79.872-79.872 209.408-79.872 289.792 0 79.872 79.872 79.872 209.408 0 289.792l-434.688 434.688c-80.384 79.872-209.92 79.872-289.792 0z" fill="#F98463" p-id="31522"></path><path d="M493.9008 240.46592l289.62304 289.62816-253.42464 253.42464-289.62304-289.62816z" fill="#F8AC86" p-id="31523"></path><path d="M591.90272 497.52576l-65.16736-65.16736 43.4432-43.4432 65.16736 65.16736zM620.34944 526.37184l43.44832-43.4432 65.16224 65.16736-43.4432 43.4432zM497.408 403.14368L432.25088 337.9712l43.4432-43.4432 65.16736 65.16224zM453.82144 635.10016l-65.16736-65.16736 43.4432-43.4432 65.16736 65.16736zM482.77504 664.1664l43.44832-43.44832 65.16224 65.16736-43.4432 43.4432zM360.04864 540.71808L294.8864 475.5456l43.4432-43.4432 65.16736 65.16224zM475.79648 519.30112L410.624 454.13376l43.4432-43.4432 65.16736 65.16736zM504.8064 548.20352l43.4432-43.4432 65.16736 65.16736-43.4432 43.4432z" fill="#FB9F7F" p-id="31524"></path></svg>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="90px" height="90px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="270px" y="107px" width="90px" height="90px" filterUnits="userSpaceOnUse" id="filter226">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget227">
+      <path d="M 315 117  C 334.6 117  350 132.4  350 152  C 350 171.6  334.6 187  315 187  C 295.4 187  280 171.6  280 152  C 280 132.4  295.4 117  315 117  Z " fill-rule="nonzero" fill="#c1b7d2" stroke="none" />
+      <path d="M 315 117.5  C 334.32 117.5  349.5 132.68  349.5 152  C 349.5 171.32  334.32 186.5  315 186.5  C 295.68 186.5  280.5 171.32  280.5 152  C 280.5 132.68  295.68 117.5  315 117.5  Z " stroke-width="1" stroke="#797979" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -270 -107 )">
+    <use xlink:href="#widget227" filter="url(#filter226)" />
+    <use xlink:href="#widget227" />
+  </g>
+</svg>
